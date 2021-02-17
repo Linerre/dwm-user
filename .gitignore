@@ -1,3 +1,8 @@
 # ignore rej/orig files
 *.rej
 *.orig
+
+dwm.c
+dwm.o
+dwm
+config.def.h
