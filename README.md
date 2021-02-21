@@ -1,7 +1,12 @@
 dwm - dynamic window manager
 ============================
-dwm is an extremely fast, small, and dynamic window manager for X.
 
+Note
+------------
+
+My build of dwm for Arch Linux.
+
+Patches in the `patches/done` dir are those that have been applied to this build.
 
 Requirements
 ------------
