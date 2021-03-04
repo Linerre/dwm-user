@@ -2,7 +2,3 @@
 *.rej
 *.orig
 
-dwm.c
-dwm.o
-dwm
-config.def.h
