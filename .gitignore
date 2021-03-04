@@ -1,4 +1,5 @@
 # ignore rej/orig files
+dwm
 *.rej
 *.orig
 
