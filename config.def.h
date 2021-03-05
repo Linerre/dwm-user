@@ -6,11 +6,11 @@ static const unsigned int gappx     = 2;        /* gaps between windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Mononoki Nerd Font:size=13:antialias=true:autohint=true",
+static const char *fonts[]          = { "mononoki Nerd Font:size=13:antialias=true:autohint=true",
 					"Hack:size=13:antialias=true:autohint=true", 
 					"JoyPixels:size=10:antialias=true:autohint=true", 
 					"monospace:size=12" };
-static const char dmenufont[]       = "Mononoki Nerd Font:size=13";
+static const char dmenufont[]       = "mononoki Nerd Font:size=13";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
@@ -51,7 +51,7 @@ static const unsigned int alphas[][3]      = {
 /* tagging */
 /* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
 /* static const char *tags[] = { "", "", "", "", "", "", "", "", "" }; */
-static const char *tags[] = { "", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
