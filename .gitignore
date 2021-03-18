@@ -1,5 +1,6 @@
 # ignore rej/orig files
 dwm
+dwm.o
 *.rej
 *.orig
 
