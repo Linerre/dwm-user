@@ -4,7 +4,7 @@ dwm - dynamic window manager
 Note
 ------------
 
-My build of dwm for Arch Linux, Void Linux, FreeBSD, OpenBSD and Gentoo.
+My build of dwm for Arch Linux, Void Linux, Gentoo, and FreeBSD.
 
 Patches in the `patches/done` dir are those that have been applied to this build.
 
@@ -17,6 +17,10 @@ In order to build dwm you need the Xlib header files.
 On Void Linux, the following pkgs need to be installed before building:
 
 	# xbps-install -S base-devel libX11-devel libXft-devel libXinerama-devel
+
+On FreeBSD, you might need to install pkgconfig:
+
+	# pkg install pkgconfig
 
 
 Installation
