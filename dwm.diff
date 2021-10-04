@@ -2,21 +2,6 @@ diff --git a/config.mk b/config.mk
 index 7084c33..625d54d 100644
 --- a/config.mk
 +++ b/config.mk
-@@ -5,12 +5,12 @@ VERSION = 6.2
- 
- # paths
- PREFIX = /usr/local
- MANPREFIX = ${PREFIX}/share/man
- 
--X11INC = /usr/X11R6/include
--X11LIB = /usr/X11R6/lib
-+X11INC = /usr/local/include
-+X11LIB = /usr/local/lib
- 
- # Xinerama, comment if you don't want it
- XINERAMALIBS  = -lXinerama
- XINERAMAFLAGS = -DXINERAMA
- 
 @@ -20,11 +20,11 @@ FREETYPEINC = /usr/include/freetype2
  # OpenBSD (uncomment)
  #FREETYPEINC = ${X11INC}/freetype2
