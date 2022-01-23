@@ -1,14 +1,16 @@
 dwm - dynamic window manager
 ============================
 
-Note
-------------
-
-My build of dwm for Arch Linux, Void Linux, Gentoo, and FreeBSD.
+My build of dwm for Arch Linux, Void Linux, and FreeBSD.
 
 Patches in the `patches/done` dir are those that have been applied to this build.
 
 **Branch names** indicate their corresponding system/distro.
+
+Note
+------------
+For Gentoo Linux, I prefer to delegate to Portage management of suckless utilities, since installation via compilation is the natural way on Gentoo. See my [overlay repo](https://github.com/Linerre/interlay) and [protage config repo](https://github.com/Linerre/portage.d) for more details.
+
 
 Requirements
 ------------
@@ -25,8 +27,8 @@ On FreeBSD, you might need to install pkgconfig:
 
 Installation
 ------------
-Edit config.mk to match your local setup (dwm is installed into
-the `/usr/local` namespace by default).
+Edit `config.mk` to match your local setup (dwm is installed into
+the `/usr/local/bin` dir by default).
 
 Afterwards enter the following command to build and install dwm (if
 necessary as root):
